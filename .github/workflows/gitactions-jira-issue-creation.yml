@@ -11,7 +11,6 @@ jobs:
         env:
           JIRA_ACCOUNT_URL: https://github-jira-demo.atlassian.net/
           JIRA_API_TOKEN: AVxwhMrlHqo31DzvI2XB702
-          JIRA_ISSUE_ATTACHMENT: log_file.log
           JIRA_ISSUE_DESCRIPTION: Demo'ing Jira Issue Creation
           JIRA_ISSUE_SUMMARY: Demo'ing Jira Issue Creation
           JIRA_ISSUE_TYPE: Demo'ing Jira Issue Creation
