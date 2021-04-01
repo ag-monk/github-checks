@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Jira Creation Demo
-        uses: bryannice/gitactions-jira-issue-creation@master
+        
         env:
           JIRA_ACCOUNT_URL: https://github-jira-demo.atlassian.net/
           JIRA_API_TOKEN: nTF2F9qRvzkDx9E1EQdE6BCF
