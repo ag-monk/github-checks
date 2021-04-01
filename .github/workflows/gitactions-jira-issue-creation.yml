@@ -10,9 +10,9 @@ jobs:
         uses: bryannice/gitactions-jira-issue-creation@master
         env:
           JIRA_ACCOUNT_URL: https://github-jira-demo.atlassian.net/
-          JIRA_API_TOKEN: AVxwhMrlHqo31DzvI2XB702
+          JIRA_API_TOKEN: nTF2F9qRvzkDx9E1EQdE6BCF
           JIRA_ISSUE_DESCRIPTION: Demo'ing Jira Issue Creation
           JIRA_ISSUE_SUMMARY: Demo'ing Jira Issue Creation
-          JIRA_ISSUE_TYPE: Demo'ing Jira Issue Creation
+          JIRA_ISSUE_TYPE: Task
           JIRA_PROJECT: github-jira-demo
           JIRA_USERNAME: agrawalgargieic@gmail.com
