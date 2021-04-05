@@ -17,8 +17,9 @@ jobs:
        JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
      
      
-   	- name: Comment on issue
+   	
+    - name: Updating JIRA issue comment
       uses: atlassian/gajira-comment@master
       with:
       issue: GJD-2
-      comment: ${{ github.event.pusher.name }} pushed to repository: ${{ github.event.repository.full_name }}
+      comment: ${{ github.event.pusher.name }} pushed to repository:${{ github.event.repository.full_name }}
