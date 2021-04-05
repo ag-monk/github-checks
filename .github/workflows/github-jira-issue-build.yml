@@ -21,7 +21,7 @@ jobs:
       uses: atlassian/gajira-create@master
       with:
        project: GJD
-       issuetype: Build
+       issuetype: Task
        summary: |
         Build completed for ${{ github.repository }}
        description: Updation and creation of JIRA issues
