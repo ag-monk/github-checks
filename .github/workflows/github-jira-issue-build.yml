@@ -26,4 +26,5 @@ jobs:
         Build completed for ${{ github.repository }}
        description: Updation and creation of JIRA issues
        
-  
+    - name: Log created issue
+      run: echo "Issue ${{ steps.create.output.issue }} was created"
