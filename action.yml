@@ -1,0 +1,13 @@
+name: Jira issue Creation
+description: Create Jira issue
+
+inputs:
+  project:
+    description: Key of the project
+    required: true
+  issuetype:
+    description: "Type of the issue to be created. Example: 'Incident'"
+    required: true
+  description:
+    description: Issue description
+    required: false
